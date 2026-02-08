@@ -1,0 +1,20 @@
+body {
+  /* Fondo sólido minimalista claro (White Luxury) */
+  background-color: #FAFAF9; /* stone-50 */
+  color: #18181b; /* zinc-900 */
+  overflow-x: hidden;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

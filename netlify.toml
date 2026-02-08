@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Regla esencial para Single Page Applications (SPA)
+# Redirige todo el tráfico a index.html para que React maneje el renderizado
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
